@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		9F7FF5D21CDFEDA4002C75B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FF5D11CDFEDA4002C75B0 /* main.m */; };
 		9F7FF5D51CDFEDA4002C75B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FF5D41CDFEDA4002C75B0 /* AppDelegate.m */; };
-		9F7FF5D81CDFEDA4002C75B0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FF5D71CDFEDA4002C75B0 /* MasterViewController.m */; };
-		9F7FF5DB1CDFEDA4002C75B0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FF5DA1CDFEDA4002C75B0 /* DetailViewController.m */; };
+		9F7FF5D81CDFEDA4002C75B0 /* TicketsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FF5D71CDFEDA4002C75B0 /* TicketsTableViewController.m */; };
+		9F7FF5DB1CDFEDA4002C75B0 /* WinningTicketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FF5DA1CDFEDA4002C75B0 /* WinningTicketViewController.m */; };
 		9F7FF5DE1CDFEDA4002C75B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7FF5DC1CDFEDA4002C75B0 /* Main.storyboard */; };
 		9F7FF5E01CDFEDA4002C75B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7FF5DF1CDFEDA4002C75B0 /* Assets.xcassets */; };
 		9F7FF5E31CDFEDA4002C75B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7FF5E11CDFEDA4002C75B0 /* LaunchScreen.storyboard */; };
+		9F7FF5EC1CDFEE30002C75B0 /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FF5EB1CDFEE30002C75B0 /* Ticket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		9F7FF5D11CDFEDA4002C75B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F7FF5D31CDFEDA4002C75B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F7FF5D41CDFEDA4002C75B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F7FF5D61CDFEDA4002C75B0 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		9F7FF5D71CDFEDA4002C75B0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		9F7FF5D91CDFEDA4002C75B0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		9F7FF5DA1CDFEDA4002C75B0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		9F7FF5D61CDFEDA4002C75B0 /* TicketsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketsTableViewController.h; sourceTree = "<group>"; };
+		9F7FF5D71CDFEDA4002C75B0 /* TicketsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketsTableViewController.m; sourceTree = "<group>"; };
+		9F7FF5D91CDFEDA4002C75B0 /* WinningTicketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WinningTicketViewController.h; sourceTree = "<group>"; };
+		9F7FF5DA1CDFEDA4002C75B0 /* WinningTicketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WinningTicketViewController.m; sourceTree = "<group>"; };
 		9F7FF5DD1CDFEDA4002C75B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F7FF5DF1CDFEDA4002C75B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F7FF5E21CDFEDA4002C75B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F7FF5E41CDFEDA4002C75B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F7FF5EA1CDFEE30002C75B0 /* Ticket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ticket.h; sourceTree = "<group>"; };
+		9F7FF5EB1CDFEE30002C75B0 /* Ticket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ticket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +66,12 @@
 			children = (
 				9F7FF5D31CDFEDA4002C75B0 /* AppDelegate.h */,
 				9F7FF5D41CDFEDA4002C75B0 /* AppDelegate.m */,
-				9F7FF5D61CDFEDA4002C75B0 /* MasterViewController.h */,
-				9F7FF5D71CDFEDA4002C75B0 /* MasterViewController.m */,
-				9F7FF5D91CDFEDA4002C75B0 /* DetailViewController.h */,
-				9F7FF5DA1CDFEDA4002C75B0 /* DetailViewController.m */,
+				9F7FF5EA1CDFEE30002C75B0 /* Ticket.h */,
+				9F7FF5EB1CDFEE30002C75B0 /* Ticket.m */,
+				9F7FF5D61CDFEDA4002C75B0 /* TicketsTableViewController.h */,
+				9F7FF5D71CDFEDA4002C75B0 /* TicketsTableViewController.m */,
+				9F7FF5D91CDFEDA4002C75B0 /* WinningTicketViewController.h */,
+				9F7FF5DA1CDFEDA4002C75B0 /* WinningTicketViewController.m */,
 				9F7FF5DC1CDFEDA4002C75B0 /* Main.storyboard */,
 				9F7FF5DF1CDFEDA4002C75B0 /* Assets.xcassets */,
 				9F7FF5E11CDFEDA4002C75B0 /* LaunchScreen.storyboard */,
@@ -155,10 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7FF5EC1CDFEE30002C75B0 /* Ticket.m in Sources */,
 				9F7FF5D51CDFEDA4002C75B0 /* AppDelegate.m in Sources */,
-				9F7FF5D81CDFEDA4002C75B0 /* MasterViewController.m in Sources */,
+				9F7FF5D81CDFEDA4002C75B0 /* TicketsTableViewController.m in Sources */,
 				9F7FF5D21CDFEDA4002C75B0 /* main.m in Sources */,
-				9F7FF5DB1CDFEDA4002C75B0 /* DetailViewController.m in Sources */,
+				9F7FF5DB1CDFEDA4002C75B0 /* WinningTicketViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
